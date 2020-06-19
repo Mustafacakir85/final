@@ -1,3 +1,4 @@
+        # Code owner's name Mustafa Cakir, Date 19.06.2020,
 import time
 import pandas as pd
 import numpy as np
@@ -212,12 +213,13 @@ def main():
         # data for view
         df = pd.read_csv(CITY_DATA[city])
         # a counter for first five line
+	# The efe + 7 variable shows the first 7 lines of the calculated data. Returns the next 7 lines until No is selected. If requested, the number of lines can be decreased or increased.
         efe=0
         while True:
             fiveline = input('\nDo you want to view first five line for data? Please enter yes or no, \n')
             if fiveline.lower() == 'yes':
-                    print(df[efe:efe+5])
-                    efe +=5
+                    print(df[efe:efe+7])
+                    efe +=7
             elif fiveline.lower() == 'no':
                 break
 
