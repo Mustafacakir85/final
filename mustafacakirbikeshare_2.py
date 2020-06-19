@@ -24,14 +24,14 @@ def get_filters():
     city= input('\n\nEnter city name, please select New York City, Chicago or Washington?\n\n').lower()
     while city not in CITY_DATA:
         print('Sorry that is not a valid input\n')
-        city= input('\n\nAgain enter city name, please select New York City, Chicago or Washington?\n\n').lower()
+        city= input('\n\nAgain enter city name, please select New York City, Chicago, Washington ?\n\n').lower()
     
         # TO DO: get user input for month (all, january, february, ... , june)
     
     month = input('\n\nYou select '+city.title()+' Now you should a month. Please select one at list Jan, Feb, Mar, Apr, May, June or All.\n\n').lower()
     while month not in MONTH_DATA:
         print('\n\nSorry that is not a valid input\n')
-        month = input('\n\nPlease select one at list Jan, Feb, Mar, Apr, May, June or All.\n').lower()
+        month = input('\n\nPlease select one at list January, Feb, Mar, Apr, May, June or All.\n').lower()
 
    
 
