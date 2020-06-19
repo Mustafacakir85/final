@@ -15,6 +15,7 @@ It's important to give proper credit. Add links to any repo that inspired you or
 
 ###My changes
 1. code owner's name added
-2. The code changed
+2. The code changed. 
+3. description added for code
 
 
